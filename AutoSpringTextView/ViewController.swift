@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: AUSAutoSpringTextViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
