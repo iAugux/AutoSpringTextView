@@ -13,8 +13,8 @@
 		B1A3B8DE1C1D613D00D304E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A3B8DD1C1D613D00D304E7 /* Assets.xcassets */; };
 		B1A3B8E11C1D613D00D304E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A3B8DF1C1D613D00D304E7 /* LaunchScreen.storyboard */; };
 		B1A3B8EC1C1D613E00D304E7 /* AutoSpringTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3B8EB1C1D613E00D304E7 /* AutoSpringTextViewTests.swift */; };
-		B1A3B8F81C1D61AB00D304E7 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3B8F71C1D61AB00D304E7 /* UIResponder+Extension.swift */; };
-		B1A3B8FA1C1D620400D304E7 /* AutoSpringTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3B8F91C1D620400D304E7 /* AutoSpringTextViewController.swift */; };
+		B1A3B8FE1C1D6B5900D304E7 /* AutoSpringTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3B8FC1C1D6B5900D304E7 /* AutoSpringTextViewController.swift */; };
+		B1A3B8FF1C1D6B5900D304E7 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A3B8FD1C1D6B5900D304E7 /* UIResponder+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		B1A3B8E71C1D613E00D304E7 /* AutoSpringTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoSpringTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A3B8EB1C1D613E00D304E7 /* AutoSpringTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSpringTextViewTests.swift; sourceTree = "<group>"; };
 		B1A3B8ED1C1D613E00D304E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1A3B8F71C1D61AB00D304E7 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
-		B1A3B8F91C1D620400D304E7 /* AutoSpringTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSpringTextViewController.swift; sourceTree = "<group>"; };
+		B1A3B8FC1C1D6B5900D304E7 /* AutoSpringTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSpringTextViewController.swift; sourceTree = "<group>"; };
+		B1A3B8FD1C1D6B5900D304E7 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		B1A3B8D51C1D613D00D304E7 /* AutoSpringTextView */ = {
 			isa = PBXGroup;
 			children = (
-				B1A3B8F61C1D619300D304E7 /* AutoSpringTextView */,
+				B1A3B8FB1C1D6B5900D304E7 /* AutoSpringTextView */,
 				B1A3B8D61C1D613D00D304E7 /* AppDelegate.swift */,
 				B1A3B8D81C1D613D00D304E7 /* ViewController.swift */,
 				B1A3B8DA1C1D613D00D304E7 /* Main.storyboard */,
@@ -101,13 +101,13 @@
 			path = AutoSpringTextViewTests;
 			sourceTree = "<group>";
 		};
-		B1A3B8F61C1D619300D304E7 /* AutoSpringTextView */ = {
+		B1A3B8FB1C1D6B5900D304E7 /* AutoSpringTextView */ = {
 			isa = PBXGroup;
 			children = (
-				B1A3B8F71C1D61AB00D304E7 /* UIResponder+Extension.swift */,
-				B1A3B8F91C1D620400D304E7 /* AutoSpringTextViewController.swift */,
+				B1A3B8FC1C1D6B5900D304E7 /* AutoSpringTextViewController.swift */,
+				B1A3B8FD1C1D6B5900D304E7 /* UIResponder+Extension.swift */,
 			);
-			name = AutoSpringTextView;
+			path = AutoSpringTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A3B8D91C1D613D00D304E7 /* ViewController.swift in Sources */,
-				B1A3B8FA1C1D620400D304E7 /* AutoSpringTextViewController.swift in Sources */,
+				B1A3B8FE1C1D6B5900D304E7 /* AutoSpringTextViewController.swift in Sources */,
+				B1A3B8FF1C1D6B5900D304E7 /* UIResponder+Extension.swift in Sources */,
 				B1A3B8D71C1D613D00D304E7 /* AppDelegate.swift in Sources */,
-				B1A3B8F81C1D61AB00D304E7 /* UIResponder+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +404,7 @@
 				B1A3B8F21C1D613E00D304E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1A3B8F31C1D613E00D304E7 /* Build configuration list for PBXNativeTarget "AutoSpringTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +413,7 @@
 				B1A3B8F51C1D613E00D304E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
