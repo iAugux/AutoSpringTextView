@@ -1,6 +1,5 @@
 //
 //  UIResponder+Extension.swift
-//  AutoSpringTextView
 //
 //  Created by Augus on 12/13/15.
 //  Copyright © 2015 iAugus. All rights reserved.
@@ -8,16 +7,19 @@
 
 import UIKit
 
-var ausCurrentFirstResponder: AnyObject?
 
 extension UIResponder {
-    class func currentFirstResponder() -> AnyObject? {
-        ausCurrentFirstResponder = nil
+    
+    private static var _currentFirstResponder: UIResponder?
+    
+    class func currentFirstResponder() -> UIResponder? {
+        UIResponder._currentFirstResponder = nil
         UIApplication.sharedApplication().sendAction("findFirstResponder:", to: nil, from: nil, forEvent: nil)
-        return ausCurrentFirstResponder
+        return UIResponder._currentFirstResponder
     }
     
-    func findFirstResponder(sender: AnyObject) {
-        ausCurrentFirstResponder = self
+    internal func findFirstResponder(sender: AnyObject) {
+        UIResponder._currentFirstResponder = self
     }
+    
 }
